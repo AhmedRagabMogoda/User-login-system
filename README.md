@@ -7,7 +7,8 @@ I2C protocol is employed to communicate with an external EEPROM chip where the u
 
 *I²C (Inter-Integrated Circuit)* is a serial communication protocol commonly used in embedded systems to enable communication between a master device (like a microcontroller) and one or more slave devices (such as sensors, EEPROMs, or other microcontrollers) over a two-wire interface. I²C is widely used due to its simplicity, flexibility, and ability to support multiple devices on the same bus
 
-*How I²C Works:*
+**How I²C Works:**
+
 *Start Condition*:
    - Communication begins when the master issues a *Start* condition. This is done by pulling the SDA line low while the SCL line is high.
 
